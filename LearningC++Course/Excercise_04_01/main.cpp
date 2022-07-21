@@ -13,7 +13,7 @@ int main() {
         std::cout << "a is over 1000" << std::endl;
     }
 
-    if(a % 2){
+    if(a % 2 == 0){
         std::cout << "a is even" << std::endl;
     } else {
         std::cout << "a is odd" << std::endl;
