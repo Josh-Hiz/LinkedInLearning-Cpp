@@ -49,14 +49,14 @@ cmake_ninja_workdir = /Users/jhiz2704/Documents/C++LinkedInProjects/LearningC++C
 
 build cmake_object_order_depends_target_Excercise_04_05: phony || CMakeFiles/Excercise_04_05.dir
 
-build CMakeFiles/Excercise_04_05.dir/main.cpp.o: CXX_COMPILER__Excercise_04_05_Debug /Users/jhiz2704/Documents/C++LinkedInProjects/LearningC++Course/Excercise_04_05/main.cpp || cmake_object_order_depends_target_Excercise_04_05
-  DEP_FILE = CMakeFiles/Excercise_04_05.dir/main.cpp.o.d
+build CMakeFiles/Excercise_04_05.dir/records.cpp.o: CXX_COMPILER__Excercise_04_05_Debug /Users/jhiz2704/Documents/C++LinkedInProjects/LearningC++Course/Excercise_04_05/records.cpp || cmake_object_order_depends_target_Excercise_04_05
+  DEP_FILE = CMakeFiles/Excercise_04_05.dir/records.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14
   OBJECT_DIR = CMakeFiles/Excercise_04_05.dir
   OBJECT_FILE_DIR = CMakeFiles/Excercise_04_05.dir
 
-build CMakeFiles/Excercise_04_05.dir/records.cpp.o: CXX_COMPILER__Excercise_04_05_Debug /Users/jhiz2704/Documents/C++LinkedInProjects/LearningC++Course/Excercise_04_05/records.cpp || cmake_object_order_depends_target_Excercise_04_05
-  DEP_FILE = CMakeFiles/Excercise_04_05.dir/records.cpp.o.d
+build CMakeFiles/Excercise_04_05.dir/main2.cpp.o: CXX_COMPILER__Excercise_04_05_Debug /Users/jhiz2704/Documents/C++LinkedInProjects/LearningC++Course/Excercise_04_05/main2.cpp || cmake_object_order_depends_target_Excercise_04_05
+  DEP_FILE = CMakeFiles/Excercise_04_05.dir/main2.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14
   OBJECT_DIR = CMakeFiles/Excercise_04_05.dir
   OBJECT_FILE_DIR = CMakeFiles/Excercise_04_05.dir
@@ -69,7 +69,7 @@ build CMakeFiles/Excercise_04_05.dir/records.cpp.o: CXX_COMPILER__Excercise_04_0
 #############################################
 # Link the executable Excercise_04_05
 
-build Excercise_04_05: CXX_EXECUTABLE_LINKER__Excercise_04_05_Debug CMakeFiles/Excercise_04_05.dir/main.cpp.o CMakeFiles/Excercise_04_05.dir/records.cpp.o
+build Excercise_04_05: CXX_EXECUTABLE_LINKER__Excercise_04_05_Debug CMakeFiles/Excercise_04_05.dir/records.cpp.o CMakeFiles/Excercise_04_05.dir/main2.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/Excercise_04_05.dir
   POST_BUILD = :
