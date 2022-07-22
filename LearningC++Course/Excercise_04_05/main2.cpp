@@ -50,7 +50,7 @@ int main() {
             }
             //Get total credits and points
             int i = 0;
-            while (i < courses.size() && courses[i].get_id() == grades[i].get_course_id()) {
+            while (i < courses.size() && courses[i].get_id() != grades[i].get_course_id()) {
                 totalCredits += courses[i].get_credits();
                 totalPoints += gradeNum * courses[i].get_credits();
                 i++;
@@ -59,6 +59,7 @@ int main() {
     }
     GPA = (float) totalPoints / (float) totalCredits;
 
+    std::cout << totalCredits << std::endl;
     std::cout << "GPA for " << students[id - 1].get_name() << " is " << GPA << std::endl;
 
     return 0;
