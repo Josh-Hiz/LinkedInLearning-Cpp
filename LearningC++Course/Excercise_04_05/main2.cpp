@@ -51,7 +51,6 @@ int main() {
             //Get total credits and points
             int i = 0;
             while (i < courses.size() && courses[i].get_id() == grades[i].get_course_id()) {
-
                 totalCredits += courses[i].get_credits();
                 totalPoints += gradeNum * courses[i].get_credits();
                 i++;
