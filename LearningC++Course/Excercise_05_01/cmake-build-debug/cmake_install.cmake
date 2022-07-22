@@ -1,4 +1,4 @@
-# Install script for directory: /Users/jhiz2704/Documents/C++LinkedInProjects/C++EssentialTraining/Excercise_05_01
+# Install script for directory: /Users/jhiz2704/Documents/C++LinkedInProjects/LearningC++Course/Excercise_05_01
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/jhiz2704/Documents/C++LinkedInProjects/C++EssentialTraining/Excercise_05_01/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/jhiz2704/Documents/C++LinkedInProjects/LearningC++Course/Excercise_05_01/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

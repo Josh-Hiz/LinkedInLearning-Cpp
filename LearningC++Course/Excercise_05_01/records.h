@@ -2,8 +2,6 @@
 // Created by Josh Hizgiaev on 7/22/22.
 //
 #pragma once
-#ifndef GPACALCULATOR_RECORDS_H
-#define GPACALCULATOR_RECORDS_H
 
 #include <vector>
 #include <string>
@@ -18,7 +16,7 @@ private:
 public:
 
     Student(int stuID, std::string stuName);
-    int getStudentID();
+    int getStudentID() const;
     std::string getName();
 };
 
@@ -33,9 +31,9 @@ private:
 public:
 
     Course(int cID, std::string cName, unsigned char cCredits);
-    int getCourseID();
+    int getCourseID() const;
     std::string getCourseName();
-    int getCourseCredit();
+    int getCourseCredit() const;
 
 };
 
@@ -51,9 +49,9 @@ private:
 public:
 
     Grade(int stuID, int cID, char grd);
-    int getStudentIDGrd();
-    int getCourseIDGrd();
-    char getGrade();
+    int getStudentIDGrd() const;
+    int getCourseIDGrd() const;
+    char getGrade() const;
 
 };
 
@@ -66,17 +64,15 @@ private:
     std::vector<Course> courseVector;
     std::vector<Grade> gradeVector;
 
-    float getNumericGrade(char letter);
+    static float getNumericGrade(char letter);
     float getTotalCourseCredit(int courseID);
 
 public:
 
-    void addStudent(int studentID, std::string studentName);
-    void addCourse(int courseID, std::string courseName, unsigned char grade);
+    void addStudent(int studentID, const std::string& studentName);
+    void addCourse(int courseID, const std::string& courseName, unsigned char grade);
     void addGrade(int studentID, int courseID, char grade);
 
     std::string getStudentName(int studentID);
     float calculateGPA(int studentID);
 };
-
-#endif //GPACALCULATOR_RECORDS_H

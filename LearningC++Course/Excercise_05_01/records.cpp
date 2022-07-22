@@ -4,28 +4,30 @@
 
 #include "records.h"
 
+#include <utility>
+
 //Add characteristics to student class
 Student::Student(int stuID, std::string stuName) { //Constructor
     studentID = stuID;
-    studentName = stuName;
+    studentName = std::move(stuName);
 }
 
 std::string Student::getName() { //Returns the student name of the student object
     return studentName;
 }
 
-int Student::getStudentID() { //Returns the student ID of the student object
+int Student::getStudentID() const { //Returns the student ID of the student object
     return studentID;
 }
 
 //Add characteristics to courses class
 Course::Course(int cID, std::string cName, unsigned char cCredits) {
     courseID = cID;
-    courseName = cName;
+    courseName = std::move(cName);
     courseCredits = cCredits;
 }
 
-int Course::getCourseID() {
+int Course::getCourseID() const {
     return courseID;
 }
 
@@ -33,7 +35,7 @@ std::string Course::getCourseName() {
     return courseName;
 }
 
-int Course::getCourseCredit() {
+int Course::getCourseCredit() const {
     return courseCredits;
 }
 
@@ -44,15 +46,15 @@ Grade::Grade(int stuID, int cID, char grd) {
     grade = grd;
 }
 
-int Grade::getStudentIDGrd() {
+int Grade::getStudentIDGrd() const {
     return student_id;
 }
 
-int Grade::getCourseIDGrd() {
+int Grade::getCourseIDGrd() const {
     return course_id;
 }
 
-char Grade::getGrade() {
+char Grade::getGrade() const {
     return grade;
 }
 
@@ -78,25 +80,28 @@ float StudentRecords::getNumericGrade(char letter) {
         case 'F':
             numGrade = 0.0f;
             break;
+        default:
+            numGrade = 1.0f;
+            break;
     }
     return numGrade;
 }
 
 //Basic functions to add stuff
 
-void StudentRecords::addStudent(int studentID, std::string studentName) {
-    studentVector.push_back(Student(studentID, studentName));
+void StudentRecords::addStudent(int studentID, const std::string& studentName) {
+    studentVector.emplace_back(studentID, studentName);
 }
 
-void StudentRecords::addCourse(int courseID, std::string courseName, unsigned char grade) {
-    courseVector.push_back(Course(courseID, courseName, grade));
+void StudentRecords::addCourse(int courseID, const std::string& courseName, unsigned char grade) {
+    courseVector.emplace_back(courseID, courseName, grade);
 }
 
 void StudentRecords::addGrade(int studentID, int courseID, char grade) {
-    gradeVector.push_back(Grade(studentID, courseID, grade));
+    gradeVector.emplace_back(studentID, courseID, grade);
 }
 
-//Get student name
+//Get student name assuming ID's are put in proper order and are basic numbers
 std::string StudentRecords::getStudentName(int studentID) {
     return studentVector[studentID - 1].getName();
 }
