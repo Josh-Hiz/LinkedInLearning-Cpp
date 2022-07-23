@@ -1,6 +1,8 @@
 #include <iostream>
 #include <vector>
 #include "records.h"
+#include <fstream>
+#include <istream>
 /**
  * Goal: calculate GPA with a student record system
  * This record system must (in functions):
@@ -23,6 +25,70 @@ using namespace std;
 
 int id;
 StudentRecords SR;
+ifstream inFile;
+ofstream outFile;
+
+void initialize(ifstream& inF) {
+
+    std::string str, studentName, courseName;
+    int studentID, courseID, count = 0;
+    unsigned char courseCredit;
+    char grade;
+
+    inF.open("students.txt");
+    if (inF.fail()) {
+        std::cout << "Failed to open students.txt" << std::endl;
+    } else {
+        while (!inF.eof()) {
+            getline(inF, str);
+            studentID = stoi(str);
+            getline(inF, studentName);
+            SR.addStudent(studentID, studentName);
+            count++;
+        }
+        inF.close();
+        std::cout << "Found " << count << " students" << std::endl;
+        count = 0;
+    }
+
+    inF.open("courses.txt");
+    if (inF.fail()) {
+        std::cout << "Failed to open courses.txt" << std::endl;
+    } else {
+        while (!inF.eof()) {
+            getline(inF, str);
+            courseID = stoi(str);
+            getline(inF, courseName);
+            getline(inF, str);
+            courseCredit = stoi(str);
+            SR.addCourse(courseID, courseName, courseCredit);
+            count++;
+        }
+        inF.close();
+        std::cout << "Found " << count << " courses" << std::endl;
+        count = 0;
+    }
+
+    inF.open("grades.txt");
+    if(inF.fail()){
+        std::cout << "Failed to open grades.txt" << std::endl;
+    } else {
+        while(!inF.eof()){
+            getline(inF, str);
+            studentID = stoi(str);
+            getline(inF, str);
+            courseID = stoi(str);
+            getline(inF, str);
+            grade = str[0];
+            SR.addGrade(studentID, courseID, grade);
+            count++;
+        }
+        inF.close();
+        std::cout << "Found " << count << " grades" << std::endl;
+    }
+}
+
+
 
 void initialize(){
     SR.addStudent(1, "George P. Burdell");
@@ -43,12 +109,10 @@ void initialize(){
 
 int main() {
 
-    initialize();
-
-    cout << "Enter student ID: " << endl;
-    cin >> id;
-
-    SR.reportCard(id);
+    initialize(inFile);
+//    initialize();
+//    SR.reportCard(1);
+    SR.reportText(outFile);
 
     return 0;
 }

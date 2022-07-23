@@ -153,7 +153,42 @@ void StudentRecords::reportCard(int studentID) {
             }
         }
     }
-    std::cout << "GPA: " << (calculateGPA(studentID) * 100) / 100 << std::endl;
+    std::cout << "GPA: " << calculateGPA(studentID) << std::endl;
+}
+
+//Using osstream
+void StudentRecords::reportCard(int studentID, std::ostream& stream) {
+
+    stream << "Student Name: " << getStudentName(studentID) << std::endl;
+
+    for(Grade& grd : gradeVector){
+        for(Course& crs : courseVector){
+            if(grd.getStudentIDGrd() == studentID){
+                if(crs.getCourseID() == grd.getCourseIDGrd()){
+                    stream << "Course Name: " << crs.getCourseName() << ", Course Grade: " << grd.getGrade() << std::endl;
+                }
+            }
+        }
+    }
+    stream << "GPA: " << calculateGPA(studentID) <<  std::endl;
+}
+
+void StudentRecords::reportText(std::ofstream &outFile) {
+
+    outFile.open("reportcard.txt");
+    if(outFile.fail()){
+        std::cout << "Failed to open reportcard.txt, please check the directory" << std::endl;
+    } else {
+        outFile << "------------------------------------------------------" << std::endl;
+        for(auto& std : studentVector){
+            reportCard(std.getStudentID(), outFile);
+            outFile << "------------------------------------------------------" << std::endl;
+        }
+        outFile.close();
+        std::cout << "reportcard.txt is ready for viewing" << std::endl;
+
+    }
+
 }
 
 

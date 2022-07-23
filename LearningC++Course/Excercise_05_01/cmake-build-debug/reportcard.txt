@@ -1,0 +1,13 @@
+------------------------------------------------------
+Student Name: George P. Burdell
+Course Name: Algebra, Course Grade: B
+Course Name: Physics, Course Grade: A
+Course Name: English, Course Grade: C
+GPA: 3
+------------------------------------------------------
+Student Name: Nancy Rhodes
+Course Name: Algebra, Course Grade: A
+Course Name: Physics, Course Grade: A
+Course Name: Economics, Course Grade: B
+GPA: 4
+------------------------------------------------------

@@ -3,4 +3,4 @@ project(Excercise_05_01)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Excercise_05_01 main.cpp records.h records.cpp)
+add_executable(Excercise_05_01 main.cpp records.h records.cpp courses.txt grades.txt students.txt)
