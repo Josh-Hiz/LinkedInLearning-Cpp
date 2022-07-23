@@ -75,4 +75,5 @@ public:
 
     std::string getStudentName(int studentID);
     float calculateGPA(int studentID);
+    void reportCard(int studentID);
 };

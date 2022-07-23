@@ -17,6 +17,8 @@
  * @return
  */
 
+//Creating and using functions exercise using exercise 04_05
+
 using namespace std;
 
 int id;
@@ -46,10 +48,7 @@ int main() {
     cout << "Enter student ID: " << endl;
     cin >> id;
 
-    string studentName = SR.getStudentName(id);
-
-    cout << "Student name is: " <<  studentName << endl;
-    cout << "Student GPA is: " <<  (SR.calculateGPA(id))  << endl;
+    SR.reportCard(id);
 
     return 0;
 }

@@ -3,7 +3,7 @@
 //
 
 #include "records.h"
-
+#include <iostream>
 #include <utility>
 
 //Add characteristics to student class
@@ -113,7 +113,7 @@ float StudentRecords::getTotalCourseCredit(int courseID) {
     int i = 0;
 
     while(i < courseVector.size() &&  courseVector[i].getCourseID() == courseID){
-        totalCredit += courseVector[i].getCourseCredit();
+        totalCredit += (float) (courseVector[i].getCourseCredit());
         i++;
     }
     return totalCredit;
@@ -138,6 +138,24 @@ float StudentRecords::calculateGPA(int studentID) {
     return GPA;
 
 }
+
+//Prints report card
+void StudentRecords::reportCard(int studentID) {
+
+    std::cout << "Student Name: " << getStudentName(studentID) << std::endl;
+
+    for(Grade& grd : gradeVector){
+        for(Course& crs : courseVector){
+            if(grd.getStudentIDGrd() == studentID){
+                if(crs.getCourseID() == grd.getCourseIDGrd()){
+                    std::cout << "Course Name: " << crs.getCourseName() << ", Course Grade: " << grd.getGrade() << std::endl;
+                }
+            }
+        }
+    }
+    std::cout << "GPA: " << (calculateGPA(studentID) * 100) / 100 << std::endl;
+}
+
 
 
 
