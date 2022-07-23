@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: Excercise_06_01
+# Project: Excercise_06_02
 # Configurations: Debug
 # =============================================================================
 
@@ -39,44 +39,44 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /Users/jhiz2704/Documents/C++LinkedInProjects/LearningC++Course/Excercise_06_01/cmake-build-debug/
+cmake_ninja_workdir = /Users/jhiz2704/Documents/C++LinkedInProjects/LearningC++Course/Excercise_06_02/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target Excercise_06_01
+# Object build statements for EXECUTABLE target Excercise_06_02
 
 
 #############################################
-# Order-only phony target for Excercise_06_01
+# Order-only phony target for Excercise_06_02
 
-build cmake_object_order_depends_target_Excercise_06_01: phony || CMakeFiles/Excercise_06_01.dir
+build cmake_object_order_depends_target_Excercise_06_02: phony || CMakeFiles/Excercise_06_02.dir
 
-build CMakeFiles/Excercise_06_01.dir/main.cpp.o: CXX_COMPILER__Excercise_06_01_Debug /Users/jhiz2704/Documents/C++LinkedInProjects/LearningC++Course/Excercise_06_01/main.cpp || cmake_object_order_depends_target_Excercise_06_01
-  DEP_FILE = CMakeFiles/Excercise_06_01.dir/main.cpp.o.d
+build CMakeFiles/Excercise_06_02.dir/CodeDemo.cpp.o: CXX_COMPILER__Excercise_06_02_Debug /Users/jhiz2704/Documents/C++LinkedInProjects/LearningC++Course/Excercise_06_02/CodeDemo.cpp || cmake_object_order_depends_target_Excercise_06_02
+  DEP_FILE = CMakeFiles/Excercise_06_02.dir/CodeDemo.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14
-  OBJECT_DIR = CMakeFiles/Excercise_06_01.dir
-  OBJECT_FILE_DIR = CMakeFiles/Excercise_06_01.dir
+  OBJECT_DIR = CMakeFiles/Excercise_06_02.dir
+  OBJECT_FILE_DIR = CMakeFiles/Excercise_06_02.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target Excercise_06_01
+# Link build statements for EXECUTABLE target Excercise_06_02
 
 
 #############################################
-# Link the executable Excercise_06_01
+# Link the executable Excercise_06_02
 
-build Excercise_06_01: CXX_EXECUTABLE_LINKER__Excercise_06_01_Debug CMakeFiles/Excercise_06_01.dir/main.cpp.o
+build Excercise_06_02: CXX_EXECUTABLE_LINKER__Excercise_06_02_Debug CMakeFiles/Excercise_06_02.dir/CodeDemo.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
-  OBJECT_DIR = CMakeFiles/Excercise_06_01.dir
+  OBJECT_DIR = CMakeFiles/Excercise_06_02.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = Excercise_06_01
-  TARGET_PDB = Excercise_06_01.dbg
+  TARGET_FILE = Excercise_06_02
+  TARGET_PDB = Excercise_06_02.dbg
 
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/jhiz2704/Documents/C++LinkedInProjects/LearningC++Course/Excercise_06_01/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/jhiz2704/Documents/C++LinkedInProjects/LearningC++Course/Excercise_06_02/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -87,7 +87,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/jhiz2704/Documents/C++LinkedInProjects/LearningC++Course/Excercise_06_01/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/jhiz2704/Documents/C++LinkedInProjects/LearningC++Course/Excercise_06_01 -B/Users/jhiz2704/Documents/C++LinkedInProjects/LearningC++Course/Excercise_06_01/cmake-build-debug
+  COMMAND = cd /Users/jhiz2704/Documents/C++LinkedInProjects/LearningC++Course/Excercise_06_02/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/jhiz2704/Documents/C++LinkedInProjects/LearningC++Course/Excercise_06_02 -B/Users/jhiz2704/Documents/C++LinkedInProjects/LearningC++Course/Excercise_06_02/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -103,9 +103,9 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 
 #############################################
-# Folder: /Users/jhiz2704/Documents/C++LinkedInProjects/LearningC++Course/Excercise_06_01/cmake-build-debug
+# Folder: /Users/jhiz2704/Documents/C++LinkedInProjects/LearningC++Course/Excercise_06_02/cmake-build-debug
 
-build all: phony Excercise_06_01
+build all: phony Excercise_06_02
 
 # =============================================================================
 # Built-in targets
