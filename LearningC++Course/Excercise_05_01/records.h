@@ -5,6 +5,7 @@
 
 #include <vector>
 #include <string>
+#include <fstream>
 
 //Student class
 class Student {
@@ -76,4 +77,7 @@ public:
     std::string getStudentName(int studentID);
     float calculateGPA(int studentID);
     void reportCard(int studentID);
+
+    void reportText();
+
 };
