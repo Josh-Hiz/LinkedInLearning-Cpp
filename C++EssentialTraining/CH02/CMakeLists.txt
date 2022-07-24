@@ -3,4 +3,4 @@ project(CH02)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(CH02 class.cpp)
+add_executable(CH02 for.cpp)

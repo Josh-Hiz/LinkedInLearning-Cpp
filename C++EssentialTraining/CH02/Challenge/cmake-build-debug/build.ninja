@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: CH02
+# Project: Challenge
 # Configurations: Debug
 # =============================================================================
 
@@ -39,44 +39,50 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /Users/jhiz2704/C++Projects/C++LinkedInProjects/C++EssentialTraining/CH02/cmake-build-debug/
+cmake_ninja_workdir = /Users/jhiz2704/C++Projects/C++LinkedInProjects/C++EssentialTraining/CH02/Challenge/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target CH02
+# Object build statements for EXECUTABLE target Challenge
 
 
 #############################################
-# Order-only phony target for CH02
+# Order-only phony target for Challenge
 
-build cmake_object_order_depends_target_CH02: phony || CMakeFiles/CH02.dir
+build cmake_object_order_depends_target_Challenge: phony || CMakeFiles/Challenge.dir
 
-build CMakeFiles/CH02.dir/for.cpp.o: CXX_COMPILER__CH02_Debug /Users/jhiz2704/C++Projects/C++LinkedInProjects/C++EssentialTraining/CH02/for.cpp || cmake_object_order_depends_target_CH02
-  DEP_FILE = CMakeFiles/CH02.dir/for.cpp.o.d
+build CMakeFiles/Challenge.dir/Count.cpp.o: CXX_COMPILER__Challenge_Debug /Users/jhiz2704/C++Projects/C++LinkedInProjects/C++EssentialTraining/CH02/Challenge/Count.cpp || cmake_object_order_depends_target_Challenge
+  DEP_FILE = CMakeFiles/Challenge.dir/Count.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++2a
-  OBJECT_DIR = CMakeFiles/CH02.dir
-  OBJECT_FILE_DIR = CMakeFiles/CH02.dir
+  OBJECT_DIR = CMakeFiles/Challenge.dir
+  OBJECT_FILE_DIR = CMakeFiles/Challenge.dir
+
+build CMakeFiles/Challenge.dir/challenge.cpp.o: CXX_COMPILER__Challenge_Debug /Users/jhiz2704/C++Projects/C++LinkedInProjects/C++EssentialTraining/CH02/Challenge/challenge.cpp || cmake_object_order_depends_target_Challenge
+  DEP_FILE = CMakeFiles/Challenge.dir/challenge.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++2a
+  OBJECT_DIR = CMakeFiles/Challenge.dir
+  OBJECT_FILE_DIR = CMakeFiles/Challenge.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target CH02
+# Link build statements for EXECUTABLE target Challenge
 
 
 #############################################
-# Link the executable CH02
+# Link the executable Challenge
 
-build CH02: CXX_EXECUTABLE_LINKER__CH02_Debug CMakeFiles/CH02.dir/for.cpp.o
+build Challenge: CXX_EXECUTABLE_LINKER__Challenge_Debug CMakeFiles/Challenge.dir/Count.cpp.o CMakeFiles/Challenge.dir/challenge.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
-  OBJECT_DIR = CMakeFiles/CH02.dir
+  OBJECT_DIR = CMakeFiles/Challenge.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = CH02
-  TARGET_PDB = CH02.dbg
+  TARGET_FILE = Challenge
+  TARGET_PDB = Challenge.dbg
 
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/jhiz2704/C++Projects/C++LinkedInProjects/C++EssentialTraining/CH02/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/jhiz2704/C++Projects/C++LinkedInProjects/C++EssentialTraining/CH02/Challenge/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -87,7 +93,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/jhiz2704/C++Projects/C++LinkedInProjects/C++EssentialTraining/CH02/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/jhiz2704/C++Projects/C++LinkedInProjects/C++EssentialTraining/CH02 -B/Users/jhiz2704/C++Projects/C++LinkedInProjects/C++EssentialTraining/CH02/cmake-build-debug
+  COMMAND = cd /Users/jhiz2704/C++Projects/C++LinkedInProjects/C++EssentialTraining/CH02/Challenge/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/jhiz2704/C++Projects/C++LinkedInProjects/C++EssentialTraining/CH02/Challenge -B/Users/jhiz2704/C++Projects/C++LinkedInProjects/C++EssentialTraining/CH02/Challenge/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -103,9 +109,9 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 
 #############################################
-# Folder: /Users/jhiz2704/C++Projects/C++LinkedInProjects/C++EssentialTraining/CH02/cmake-build-debug
+# Folder: /Users/jhiz2704/C++Projects/C++LinkedInProjects/C++EssentialTraining/CH02/Challenge/cmake-build-debug
 
-build all: phony CH02
+build all: phony Challenge
 
 # =============================================================================
 # Built-in targets
