@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="CH03" targetName="CH03" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="45299727-cb6e-4aee-97b6-8247ad9382f0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/CH03.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Challenge/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Challenge/.idea/Challenge.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Challenge/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Challenge/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Challenge/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Challenge/LibraryCard.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Challenge/LibraryCard.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Challenge/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Integer.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auto-type.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auto-type2.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bitfields.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c-strings.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cards.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/floattypes.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nullptr.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qualifiers.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/struct.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/typedef.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/union.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/void-type.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/working.cpp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="33wnvg3t" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2022" />
+    <option name="minorVersion" value="1.3" />
+  </component>
+  <component name="ProjectId" id="2CPMWn2sC4BiK76rfWVSWGANWcT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="CH03" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CH03" TARGET_NAME="CH03" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CH03" RUN_TARGET_NAME="CH03">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="45299727-cb6e-4aee-97b6-8247ad9382f0" name="Changes" comment="" />
+      <created>1658699801575</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1658699801575</updated>
+      <workItem from="1658699804167" duration="6495000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
