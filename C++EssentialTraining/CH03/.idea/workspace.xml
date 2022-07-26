@@ -14,35 +14,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45299727-cb6e-4aee-97b6-8247ad9382f0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/CH03.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Challenge/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Challenge/.idea/Challenge.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Challenge/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Challenge/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Challenge/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Challenge/LibraryCard.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Challenge/LibraryCard.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Challenge/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Integer.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auto-type.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auto-type2.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bitfields.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/c-strings.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/floattypes.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nullptr.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qualifiers.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/struct.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/typedef.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/union.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/void-type.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/working.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="45299727-cb6e-4aee-97b6-8247ad9382f0" name="Changes" comment="Course 2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -106,7 +78,16 @@
       <option name="presentableId" value="Default" />
       <updated>1658699801575</updated>
       <workItem from="1658699804167" duration="6495000" />
+      <workItem from="1658724903867" duration="49000" />
     </task>
+    <task id="LOCAL-00001" summary="Course 2">
+      <created>1658724923248</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1658724923248</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,5 +106,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Course 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Course 2" />
   </component>
 </project>
