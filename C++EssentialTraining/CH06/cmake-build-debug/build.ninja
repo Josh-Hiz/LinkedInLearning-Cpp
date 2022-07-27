@@ -49,8 +49,8 @@ cmake_ninja_workdir = /Users/jhiz2704/C++Projects/C++LinkedInProjects/C++Essenti
 
 build cmake_object_order_depends_target_CH06: phony || CMakeFiles/CH06.dir
 
-build CMakeFiles/CH06.dir/class.cpp.o: CXX_COMPILER__CH06_Debug /Users/jhiz2704/C++Projects/C++LinkedInProjects/C++EssentialTraining/CH06/class.cpp || cmake_object_order_depends_target_CH06
-  DEP_FILE = CMakeFiles/CH06.dir/class.cpp.o.d
+build CMakeFiles/CH06.dir/rational.cpp.o: CXX_COMPILER__CH06_Debug /Users/jhiz2704/C++Projects/C++LinkedInProjects/C++EssentialTraining/CH06/rational.cpp || cmake_object_order_depends_target_CH06
+  DEP_FILE = CMakeFiles/CH06.dir/rational.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++2a
   OBJECT_DIR = CMakeFiles/CH06.dir
   OBJECT_FILE_DIR = CMakeFiles/CH06.dir
@@ -63,7 +63,7 @@ build CMakeFiles/CH06.dir/class.cpp.o: CXX_COMPILER__CH06_Debug /Users/jhiz2704/
 #############################################
 # Link the executable CH06
 
-build CH06: CXX_EXECUTABLE_LINKER__CH06_Debug CMakeFiles/CH06.dir/class.cpp.o
+build CH06: CXX_EXECUTABLE_LINKER__CH06_Debug CMakeFiles/CH06.dir/rational.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/CH06.dir
   POST_BUILD = :
