@@ -1,0 +1,4 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja -S /Users/jhiz2704/C++Projects/C++LinkedInProjects/C++EssentialTraining/CH09/Challenge -B /Users/jhiz2704/C++Projects/C++LinkedInProjects/C++EssentialTraining/CH09/Challenge/cmake-build-debug
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/jhiz2704/C++Projects/C++LinkedInProjects/C++EssentialTraining/CH09/Challenge/cmake-build-debug
