@@ -24,9 +24,9 @@ class Stack {
     T* stackPtr;
 public:
     explicit Stack(int s = defaultSize);
-    ~Stack() { if(stackPtr) delete[] stackPtr; }
-    T & push( const T & );
-    T & pop();
+    ~Stack() { if(stackPtr) delete[] stackPtr; } //If stackPtr = 1 delete
+    T& push( const T& );
+    T& pop();
     bool isEmpty() const { return S_top < 0; }
     bool isFull() const { return S_top >= S_size - 1; }
     int top() const { return S_top; }
