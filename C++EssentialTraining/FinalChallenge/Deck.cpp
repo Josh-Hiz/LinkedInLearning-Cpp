@@ -20,21 +20,28 @@ std::vector<std::string> Deck::makeDeck() { //Needs to be shuffled after init
                     "Ad","2d","3d","4d","5d","6d","7d","8d","9d","Td","Jd","Qd","Kd",
                     "As","2s","3s","4s","5s","6s","7s","8s","9s","Ts","Js","Qs","Ks",
     };
-
     return completeDeck;
-
 }
 
-int8_t Deck::deckSize() { //Returns initial size of deck
-    return completeDeck.size();
+int8_t Deck::deckSize(uint8_t numOfDecks) { //Returns initial size of all deck
+    return (numOfDecks * completeDeck.size());
 }
 
-void Deck::shuffleDeck(std::vector<std::string>& Deck) {
+void Deck::shuffleDeck(std::vector<std::string>& Deck) { //Implement multi decks
+
+    std::vector<std::string> newDeck;
 
     unsigned seed = std::chrono::system_clock::now().time_since_epoch().count();
     std::shuffle(Deck.begin(), Deck.end(), std::default_random_engine(seed));
-
-   for(int i = 0; i < Deck.size() - 1; i++){
-       std::cout << Deck[i] << ", ";
-   }
+    for(int i = 0; i < Deck.size(); i++){
+        newDeck.push_back(Deck[i]);
+        std::cout << newDeck[i] << " ";
+    }
 }
+
+Deck::Deck() {}
+Deck::~Deck() {}
+
+const Deck &Deck::dealHand() {}
+
+int8_t Deck::remainingCards() {}

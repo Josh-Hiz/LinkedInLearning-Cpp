@@ -3,10 +3,9 @@
 Deck card;
 
 int main() {
-    std::vector<std::string> Deck = card.makeDeck();
-    card.shuffleDeck(Deck);
-
-    std::cout << std::endl;
+    uint8_t num;
+    std::cout << "How many decks do you want?" << std::endl;
+    std::cin >> num;
     std::vector<std::string> Deck1 = card.makeDeck();
     card.shuffleDeck(Deck1);
     return 0;
