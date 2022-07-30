@@ -6,10 +6,8 @@
 #include <iostream>
 #include <vector>
 #include <random>
-#include <string>
-#include <cmath>
 #include <algorithm>
-#include <random>
+
 
 
 std::vector<std::string> Deck::makeDeck() { //Needs to be shuffled after init
@@ -23,8 +21,8 @@ std::vector<std::string> Deck::makeDeck() { //Needs to be shuffled after init
     return completeDeck;
 }
 
-int8_t Deck::deckSize(uint8_t numOfDecks) { //Returns initial size of all deck
-    return (numOfDecks * completeDeck.size());
+int Deck::deckSize(int numOfDecks) { //Returns initial size of all deck
+    return (numOfDecks * 52);
 }
 
 void Deck::shuffleDeck(std::vector<std::string>& Deck) { //Implement multi decks
@@ -33,15 +31,42 @@ void Deck::shuffleDeck(std::vector<std::string>& Deck) { //Implement multi decks
 
     unsigned seed = std::chrono::system_clock::now().time_since_epoch().count();
     std::shuffle(Deck.begin(), Deck.end(), std::default_random_engine(seed));
-    for(int i = 0; i < Deck.size(); i++){
-        newDeck.push_back(Deck[i]);
-        std::cout << newDeck[i] << " ";
+    for(const auto & i : Deck){
+        newDeck.push_back(i);
     }
 }
 
-Deck::Deck() {}
+Deck::Deck(std::vector<std::string>& Deck) {
+    Deck = makeDeck() = completeDeck;
+    shuffleDeck(Deck);
+}
+
+
 Deck::~Deck() {}
 
-const Deck &Deck::dealHand() {}
+void Deck::deleteElement(std::vector<std::string> Deck, int index) {
+   while(index--){
+       Deck.erase(Deck.begin(), Deck.begin() + index);
+   }
+}
 
-int8_t Deck::remainingCards() {}
+void Deck::dealHand(int numOfCards, std::vector<std::string>& currentDeck, int numOfDecks) {
+    std::vector<std::string> newHand;
+    static int remaining = deckSize(numOfDecks);
+
+    while(numOfCards-- && remaining != 0){
+        newHand.push_back(currentDeck[numOfCards]);
+        --remaining;
+    }
+    deleteElement(currentDeck,numOfCards);
+
+    for(auto & i : newHand){
+        std::cout << i << " ";
+    }
+    std::cout << ",there are now " << remaining << " cards remaining" << std::endl;
+}
+
+
+
+
+

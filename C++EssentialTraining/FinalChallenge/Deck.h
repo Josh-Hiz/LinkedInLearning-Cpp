@@ -27,16 +27,14 @@
 
  class Deck {
     std::vector<std::string> completeDeck;
-    uint8_t remaining;
-    std::string cardType;
-    uint8_t maxDecks = 4;
+//    std::string cardType;
 public:
     std::vector<std::string> makeDeck(); //Inits new deck
-    void shuffleDeck( std::vector<std::string>& Deck);
-    const Deck& dealHand(); //Reduces count of cards in deck by 1 everytime this is called
-    int8_t remainingCards();
-    int8_t deckSize(uint8_t numOfDecks);
-    Deck();
+    static void shuffleDeck(std::vector<std::string>& Deck);
+    void dealHand(int numOfCards, std::vector<std::string>& currentDeck, int numOfDecks); //Reduces count of cards in deck by 1 everytime this is called
+    static int deckSize(int numOfDecks);
+    Deck(std::vector<std::string>& Deck);
+    static void deleteElement(std::vector<std::string> Deck, int index);
     ~Deck();
 };
 
