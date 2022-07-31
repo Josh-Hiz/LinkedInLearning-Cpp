@@ -35,7 +35,7 @@ int main() {
 
         deck.shuffleDecK();
 
-        printf("Do you want to see a specific card in your deck? If so you cannot go back after selecting yes\n");
+        printf("\nDo you want to see a specific card in your deck? If so you cannot go back after selecting yes\n");
         std::cin >> response;
         if(response == "no"){
             printf("\nHow many hands do you want to draw? A maximum of 4 is allowed\n");

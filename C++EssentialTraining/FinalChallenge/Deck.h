@@ -34,13 +34,14 @@
 public:
 
      Deck(); //Default constructor, assigns 52 cards to deck
-//     ~Deck();
      void shuffleDecK();
      void findCard(int cardIndex);
      std::string dealCard();
      void makeDeck();
      int remainingCards();
      int totalDeckSize();
+     void deleteDeck();
+     ~Deck();
 };
 
 

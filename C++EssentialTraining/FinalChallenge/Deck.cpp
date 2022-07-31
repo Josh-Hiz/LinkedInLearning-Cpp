@@ -70,3 +70,12 @@ void Deck::findCard(int cardIndex) {
     printf("Card: %s\n", deck[cardIndex].c_str());
 }
 
+void Deck::deleteDeck() {
+    for(int i = 0; i < deck.size(); i++){
+        deck[i] = "";
+    }
+}
+
+Deck::~Deck() { //Deconstruct deletes all deck elements
+    deleteDeck();
+}
