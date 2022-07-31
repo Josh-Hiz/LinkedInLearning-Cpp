@@ -8,65 +8,65 @@
 #include <random>
 #include <algorithm>
 
-
-
-std::vector<std::string> Deck::makeDeck() { //Needs to be shuffled after init
-
-    //Init deck (Every 13 Indexes changes suite)
-    completeDeck = {"Ah","2h","3h","4h","5h","6h","7h","8h","9h","Th","Jh","Qh","Kh",
-                    "Ac","2c","3c","4c","5c","6c","7c","8c","9c","Tc","Jc","Qc","Kc",
-                    "Ad","2d","3d","4d","5d","6d","7d","8d","9d","Td","Jd","Qd","Kd",
-                    "As","2s","3s","4s","5s","6s","7s","8s","9s","Ts","Js","Qs","Ks",
-    };
-    return completeDeck;
+Deck::Deck() {
+    makeDeck();
 }
 
-int Deck::deckSize(int numOfDecks) { //Returns initial size of all deck
-    return (numOfDecks * 52);
+void Deck::makeDeck() {
+    int suiteLength = sizeof(cardSuites);
+    int rankLength = sizeof(cardRanks);
+    std::string card;
+
+    for(int i = 0; i < suiteLength; i++){
+        for(int j = 0; j < rankLength - 1; j++){
+            card += cardRanks[j];
+            card += cardSuites[i];
+            deck.push_back(card);
+            card = ""; //Reset card
+        }
+    }
 }
 
-void Deck::shuffleDeck(std::vector<std::string>& Deck) { //Implement multi decks
-
+void Deck::shuffleDecK() {
     std::vector<std::string> newDeck;
+    int count = 0;
 
     unsigned seed = std::chrono::system_clock::now().time_since_epoch().count();
-    std::shuffle(Deck.begin(), Deck.end(), std::default_random_engine(seed));
-    for(const auto & i : Deck){
+    std::shuffle(deck.begin(), deck.end(), std::default_random_engine(seed));
+    for(auto i : deck){
         newDeck.push_back(i);
     }
-}
-
-Deck::Deck(std::vector<std::string>& Deck) {
-    Deck = makeDeck() = completeDeck;
-    shuffleDeck(Deck);
-}
-
-
-Deck::~Deck() {}
-
-void Deck::deleteElement(std::vector<std::string> Deck, int index) {
-   while(index--){
-       Deck.erase(Deck.begin(), Deck.begin() + index);
-   }
-}
-
-void Deck::dealHand(int numOfCards, std::vector<std::string>& currentDeck, int numOfDecks) {
-    std::vector<std::string> newHand;
-    static int remaining = deckSize(numOfDecks);
-
-    while(numOfCards-- && remaining != 0){
-        newHand.push_back(currentDeck[numOfCards]);
-        --remaining;
+    for(int i = 0; i < newDeck.size(); i++){
+        if(count % 5 == 0) printf("\n");
+        std::cout << newDeck[i] << " ";
+        count++;
     }
-    deleteElement(currentDeck,numOfCards);
-
-    for(auto & i : newHand){
-        std::cout << i << " ";
-    }
-    std::cout << ",there are now " << remaining << " cards remaining" << std::endl;
 }
 
+int Deck::remainingCards() {
+    remaining = deck.size();
+    return remaining;
+}
 
+int Deck::totalDeckSize() {
+    return deck.size();
+}
 
+std::string Deck::dealCard() {
 
+    std::vector<std::string>& deck1 = deck;
+    std::string nextCard = deck1.back();
+
+    if(remainingCards() == 0){
+        perror("ERROR CANT TAKE ANYMORE");
+    } else {
+        deck1.pop_back();
+    }
+    return nextCard;
+
+}
+
+void Deck::findCard(int cardIndex) {
+    printf("Card: %s\n", deck[cardIndex].c_str());
+}
 

@@ -7,6 +7,7 @@
 
 #include <iostream>
 #include <vector>
+#include <cstdio>
 
 //Cards hold 2 things: Identifier, and Suite, however this can be easily initialized and then shuffled so no need to actually declare them, right?
 //Cards are held in a container/vector called Deck
@@ -22,20 +23,24 @@
  * display total amount of cards after all decks generated (Max should be 208 cards)
  * Destructor delete must every single deck
  */
- //Make dealHand function, this will grab the first n cards of the vector (use remove method) - IP
- //Make remaining cards funciton - IP (must implement deal cards function first)
 
  class Deck {
-    std::vector<std::string> completeDeck;
-//    std::string cardType;
+
+ private:
+     char cardSuites[4] = {'d','h','s','c'}; //Diamonds Hearts Spades Clubs
+     char cardRanks[14] = {'A','2','3','4','5','6','7','8','9','T','K','Q','J'}; //Ace 2 3 4 5 6 7 8 9 King Queen Jack I forgot what T is
+     std::vector<std::string> deck;
+     int remaining;
 public:
-    std::vector<std::string> makeDeck(); //Inits new deck
-    static void shuffleDeck(std::vector<std::string>& Deck);
-    void dealHand(int numOfCards, std::vector<std::string>& currentDeck, int numOfDecks); //Reduces count of cards in deck by 1 everytime this is called
-    static int deckSize(int numOfDecks);
-    Deck(std::vector<std::string>& Deck);
-    static void deleteElement(std::vector<std::string> Deck, int index);
-    ~Deck();
+
+     Deck(); //Default constructor, assigns 52 cards to deck
+//     ~Deck();
+     void shuffleDecK();
+     void findCard(int cardIndex);
+     std::string dealCard();
+     void makeDeck();
+     int remainingCards();
+     int totalDeckSize();
 };
 
 
