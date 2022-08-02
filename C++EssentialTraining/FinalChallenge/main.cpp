@@ -2,7 +2,7 @@
 #include "Deck.h"
 #include <vector>
 
-static void dealHand(Deck deck1, int numOfCards){
+static void dealHand(Deck& deck1, int numOfCards){
     std::vector<std::string> newHand;
 
     while(numOfCards--){

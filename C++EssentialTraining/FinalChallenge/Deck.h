@@ -31,7 +31,8 @@
      char cardRanks[14] = {'A','2','3','4','5','6','7','8','9','T','K','Q','J'}; //Ace 2 3 4 5 6 7 8 9 King Queen Jack I forgot what T is
      std::vector<std::string> deck;
      int remaining;
-public:
+     void deleteDeck();
+ public:
 
      Deck(); //Default constructor, assigns 52 cards to deck
      void shuffleDecK();
@@ -40,7 +41,6 @@ public:
      void makeDeck();
      int remainingCards();
      int totalDeckSize();
-     void deleteDeck();
      ~Deck();
 };
 

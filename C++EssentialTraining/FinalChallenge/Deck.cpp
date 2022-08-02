@@ -58,7 +58,7 @@ std::string Deck::dealCard() {
     std::string nextCard = deck1.back();
 
     if(remainingCards() == 0){
-        perror("ERROR CANT TAKE ANYMORE");
+        perror("\nERROR CANT TAKE ANYMORE\n");
     } else {
         deck1.pop_back();
     }
