@@ -33,23 +33,23 @@ void Deck::shuffleDecK() {
 
     unsigned seed = std::chrono::system_clock::now().time_since_epoch().count();
     std::shuffle(deck.begin(), deck.end(), std::default_random_engine(seed));
-    for(auto i : deck){
+    for(const auto& i : deck){
         newDeck.push_back(i);
     }
-    for(int i = 0; i < newDeck.size(); i++){
+    for(auto & i : newDeck){
         if(count % 5 == 0) printf("\n");
-        std::cout << newDeck[i] << " ";
+        std::cout << i << " ";
         count++;
     }
 }
 
 int Deck::remainingCards() {
-    remaining = deck.size();
+    remaining = (int) deck.size();
     return remaining;
 }
 
 int Deck::totalDeckSize() {
-    return deck.size();
+    return (int) deck.size();
 }
 
 std::string Deck::dealCard() {
@@ -71,8 +71,8 @@ void Deck::findCard(int cardIndex) {
 }
 
 void Deck::deleteDeck() {
-    for(int i = 0; i < deck.size(); i++){
-        deck[i] = "";
+    for(auto & i : deck){
+        i = "";
     }
 }
 

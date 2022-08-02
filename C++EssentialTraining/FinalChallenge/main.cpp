@@ -9,8 +9,8 @@ static void dealHand(Deck& deck1, int numOfCards){
         newHand.push_back(deck1.dealCard());
     }
     std::cout << std::endl;
-    for(int i = 0; i < newHand.size(); i++){
-        std::cout << newHand[i] << ", ";
+    for(auto & i : newHand){
+        std::cout << i << ", ";
     }
     std::cout << "Cards remaining: " << deck1.remainingCards() << std::endl;
 
