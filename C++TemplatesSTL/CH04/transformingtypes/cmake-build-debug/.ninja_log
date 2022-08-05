@@ -1,0 +1,10 @@
+# ninja log v5
+0	388	1659677659087976688	CMakeFiles/transformingtypes.dir/numword-transform.cpp.o	a76df08af66fbeeb
+1	62	1659677760792668304	CMakeFiles/transformingtypes.dir/numword.cpp.o	41281c6b2310bf4f
+62	91	1659677760822761727	transformingtypes	d5150192b56d244f
+1	59	1659678668133177396	CMakeFiles/transformingtypes.dir/numword.cpp.o	41281c6b2310bf4f
+1	412	1659678668485074232	CMakeFiles/transformingtypes.dir/numword-transform.cpp.o	a76df08af66fbeeb
+412	447	1659678668522317158	transformingtypes	d5150192b56d244f
+1	58	1659678804518360981	CMakeFiles/transformingtypes.dir/numword.cpp.o	41281c6b2310bf4f
+1	351	1659678804810910257	CMakeFiles/transformingtypes.dir/numword-transform.cpp.o	a76df08af66fbeeb
+351	379	1659678804840622516	transformingtypes	d5150192b56d244f

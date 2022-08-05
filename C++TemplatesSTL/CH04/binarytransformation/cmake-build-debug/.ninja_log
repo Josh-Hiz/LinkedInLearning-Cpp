@@ -1,0 +1,8 @@
+# ninja log v5
+1	34	1659677056632553301	build.ninja	ef3b4c36fbd4857f
+0	356	1659677056993421029	CMakeFiles/binarytransformation.dir/binary-transformation.cpp.o	a43df061964dcec4
+357	388	1659677057026469521	binarytransformation	81956b0ce548e5b2
+0	344	1659677334759507735	CMakeFiles/binarytransformation.dir/binary-transformation.cpp.o	a43df061964dcec4
+345	372	1659677334788771246	binarytransformation	81956b0ce548e5b2
+1	362	1659677358498456820	CMakeFiles/binarytransformation.dir/binary-transformation.cpp.o	a43df061964dcec4
+363	391	1659677358528869755	binarytransformation	81956b0ce548e5b2

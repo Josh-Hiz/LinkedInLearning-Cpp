@@ -3,9 +3,9 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
-  <component name="CMakePresetLoader"><![CDATA[{
-  "useNewFormat": true
-}]]></component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
   <component name="CMakeReloadState">
     <option name="reloaded" value="true" />
   </component>
@@ -21,125 +21,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e10682ce-3d47-4412-adae-21043bfeb92d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../CH01/template-class/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH01/template-class/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH01/template-class/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH01/template-class/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH01/template-class/.idea/template-class.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH01/template-class/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH01/template-class/stack.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH01/template-class/template-class.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH01/template-function/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH01/template-function/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH01/template-function/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH01/template-function/.idea/template-function.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH01/template-function/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH01/template-variable/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH01/template-variable/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH01/template-variable/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH01/template-variable/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH01/template-variable/.idea/template-variable.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH01/template-variable/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH01/type-inference/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH01/type-inference/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH01/type-inference/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH01/type-inference/.idea/type-inference.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH01/type-inference/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH02/arrays/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH02/arrays/.idea/arrays.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH02/arrays/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH02/arrays/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH02/arrays/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH02/deque/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH02/deque/.idea/deque.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH02/deque/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH02/deque/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH02/deque/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH02/deque/deque.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH02/lists/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH02/lists/.idea/lists.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH02/lists/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH02/lists/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH02/lists/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH02/lists/list.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH02/maps/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH02/maps/.idea/maps.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH02/maps/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH02/maps/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH02/maps/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH02/maps/map.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH02/pairs/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH02/pairs/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH02/pairs/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH02/pairs/.idea/pairs.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH02/pairs/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH02/pairs/pair.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH02/pairs/tuple.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH02/queue/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH02/queue/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH02/queue/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH02/queue/.idea/queue.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH02/queue/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH02/queue/queue.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH02/sets/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH02/sets/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH02/sets/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH02/sets/.idea/sets.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH02/sets/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH02/sets/set.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH02/stack/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH02/stack/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH02/stack/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH02/stack/.idea/stack.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH02/stack/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH02/stack/stack.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH02/vectors/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH02/vectors/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH02/vectors/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH02/vectors/.idea/vectors.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH03/accessingiterators/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH03/accessingiterators/.idea/accessingiterators.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH03/accessingiterators/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH03/accessingiterators/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH03/accessingiterators/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH03/bidirectional/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH03/bidirectional/.idea/bidirectional.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH03/bidirectional/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH03/bidirectional/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH03/bidirectional/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH03/forwarditerators/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH03/forwarditerators/.idea/forwarditerators.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH03/forwarditerators/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH03/forwarditerators/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH03/forwarditerators/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH03/inputiterator/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH03/inputiterator/.idea/inputiterator.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH03/inputiterator/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH03/inputiterator/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH03/inputiterator/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH03/outputiterator/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH03/outputiterator/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH03/outputiterator/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH03/outputiterator/.idea/outputiterator.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH03/outputiterator/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH03/randomACiterator/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH03/randomACiterator/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH03/randomACiterator/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH03/randomACiterator/.idea/randomACiterator.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CH03/randomACiterator/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/lambda.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../transform/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../transform/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../transform/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../transform/.idea/transform.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../transform/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../transform/rational.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../transform/rational.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../C++EssentialTraining/FinalChallenge/Deck.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../C++EssentialTraining/FinalChallenge/Deck.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../C++EssentialTraining/FinalChallenge/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../C++EssentialTraining/FinalChallenge/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lambda.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lambda.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../transform/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../transform/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../LearningC++Course/Excercise_04_01/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../LearningC++Course/Excercise_04_01/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -173,23 +58,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="lambda" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lambda" TARGET_NAME="lambda" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="lambda" RUN_TARGET_NAME="lambda">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -205,6 +85,8 @@
       <option name="presentableId" value="Default" />
       <updated>1659669803664</updated>
       <workItem from="1659669805880" duration="137000" />
+      <workItem from="1659671215330" duration="794000" />
+      <workItem from="1659674283799" duration="1200000" />
     </task>
     <servers />
   </component>

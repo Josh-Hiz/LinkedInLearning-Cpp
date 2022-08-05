@@ -1,0 +1,3 @@
+/Users/jhiz2704/C++Projects/C++LinkedInProjects/C++TemplatesSTL/CH04/transformingtypes/cmake-build-debug/CMakeFiles/transformingtypes.dir
+/Users/jhiz2704/C++Projects/C++LinkedInProjects/C++TemplatesSTL/CH04/transformingtypes/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/jhiz2704/C++Projects/C++LinkedInProjects/C++TemplatesSTL/CH04/transformingtypes/cmake-build-debug/CMakeFiles/rebuild_cache.dir
