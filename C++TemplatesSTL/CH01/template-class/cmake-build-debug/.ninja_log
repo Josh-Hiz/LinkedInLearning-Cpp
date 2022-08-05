@@ -1,0 +1,5 @@
+# ninja log v5
+0	319	1659502410511598977	CMakeFiles/template_class.dir/template-class.cpp.o	bbf63ce715159315
+2	39	1659502115250292903	CMakeFiles/template_class.dir/stack.cpp.o	50643872c3da9a66
+0	33	1659502475016220465	build.ninja	676e47d34d57cac6
+319	349	1659502410543870843	template_class	8991d4eea4b8cb86

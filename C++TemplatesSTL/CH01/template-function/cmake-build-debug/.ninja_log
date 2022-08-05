@@ -1,0 +1,17 @@
+# ninja log v5
+0	370	1659499226847957311	CMakeFiles/template_function.dir/template-function.cpp.o	745bd72ead892267
+371	402	1659499226881035544	template_function	b9a74ffa8cf8070f
+1	337	1659499822069307649	CMakeFiles/template_function.dir/template-function.cpp.o	745bd72ead892267
+337	368	1659499822101470230	template_function	b9a74ffa8cf8070f
+1	335	1659500751751342086	CMakeFiles/template_function.dir/template-function.cpp.o	745bd72ead892267
+335	365	1659500751783580583	template_function	b9a74ffa8cf8070f
+0	331	1659500775320486536	CMakeFiles/template_function.dir/template-function.cpp.o	745bd72ead892267
+332	361	1659500775351882502	template_function	b9a74ffa8cf8070f
+1	358	1659503468687477553	CMakeFiles/template_function.dir/template-function.cpp.o	745bd72ead892267
+358	391	1659503468722320730	template_function	b9a74ffa8cf8070f
+1	354	1659503662318265378	CMakeFiles/template_function.dir/template-function.cpp.o	745bd72ead892267
+354	383	1659503662349799237	template_function	b9a74ffa8cf8070f
+1	341	1659503677112942454	CMakeFiles/template_function.dir/template-function.cpp.o	745bd72ead892267
+341	371	1659503677144178648	template_function	b9a74ffa8cf8070f
+1	348	1659503705003757889	CMakeFiles/template_function.dir/template-function.cpp.o	745bd72ead892267
+348	376	1659503705033710797	template_function	b9a74ffa8cf8070f

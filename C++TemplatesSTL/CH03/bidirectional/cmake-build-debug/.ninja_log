@@ -1,0 +1,4 @@
+# ninja log v5
+1	32	1659659541172409356	build.ninja	a2277570ea722bb9
+0	372	1659659541549101529	CMakeFiles/bidirectional.dir/bidirectional-iterator.cpp.o	eaccc38a3181cebc
+373	411	1659659541589773193	bidirectional	20d2dbb17702aafd

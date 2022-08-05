@@ -71,9 +71,7 @@ void Deck::findCard(int cardIndex) {
 }
 
 void Deck::deleteDeck() {
-    for(auto & i : deck){
-        i = "";
-    }
+    deck.clear();
 }
 
 Deck::~Deck() { //Deconstruct deletes all deck elements

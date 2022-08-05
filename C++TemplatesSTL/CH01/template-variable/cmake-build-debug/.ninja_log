@@ -1,0 +1,9 @@
+# ninja log v5
+0	300	1659500958492779898	CMakeFiles/template_variable.dir/template-variable.cpp.o	c41a88f5da95cf0b
+301	328	1659500958522374427	template_variable	8a6354621e61037c
+0	301	1659500965124684771	CMakeFiles/template_variable.dir/template-variable.cpp.o	c41a88f5da95cf0b
+301	329	1659500965154033803	template_variable	8a6354621e61037c
+1	329	1659500987808823426	CMakeFiles/template_variable.dir/template-variable.cpp.o	c41a88f5da95cf0b
+329	358	1659500987839925019	template_variable	8a6354621e61037c
+1	323	1659501045803167077	CMakeFiles/template_variable.dir/template-variable.cpp.o	c41a88f5da95cf0b
+323	354	1659501045835056704	template_variable	8a6354621e61037c

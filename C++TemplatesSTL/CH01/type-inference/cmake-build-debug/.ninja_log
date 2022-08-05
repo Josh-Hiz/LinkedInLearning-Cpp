@@ -1,0 +1,7 @@
+# ninja log v5
+0	324	1659502883022927580	CMakeFiles/type_inference.dir/main.cpp.o	2d8c44e581114786
+325	353	1659502883053312934	type_inference	bcde266de7ec9b0a
+1	328	1659503059494071751	CMakeFiles/type_inference.dir/main.cpp.o	2d8c44e581114786
+328	358	1659503059525324319	type_inference	bcde266de7ec9b0a
+1	333	1659503085779603754	CMakeFiles/type_inference.dir/main.cpp.o	2d8c44e581114786
+333	362	1659503085810893322	type_inference	bcde266de7ec9b0a

@@ -1,0 +1,3 @@
+/Users/jhiz2704/C++Projects/C++LinkedInProjects/C++TemplatesSTL/CH02/lists/cmake-build-debug/CMakeFiles/lists.dir
+/Users/jhiz2704/C++Projects/C++LinkedInProjects/C++TemplatesSTL/CH02/lists/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/jhiz2704/C++Projects/C++LinkedInProjects/C++TemplatesSTL/CH02/lists/cmake-build-debug/CMakeFiles/rebuild_cache.dir
