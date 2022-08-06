@@ -12,4 +12,7 @@
 1. The ability to ask someone how many decks they want to create and when each deck is created they are automatically shuffled so no 2 decks are the same!
 2. *dealHand* function that deals hands to a maximum of 4 players (The new hands are printed in console a maximum of 4 times)
 3. Displays the initial amount of cards in the deck and after each hand is dealt the remaining cards. Ex: You deal a hand of 10 cards out of a total of 3 randomly made decks, each deck has pack of 52 cards therefore 156 cards total, after the hand is delt, it is now 146 cards with the possibility of duplicates because you have 3 decks to choose from.
-- Note: The final project is a *DECK SYSTEM*, the actual challenge did not require making a game however it can be scaled up to that point using the current code, all that would be needed is some extra game functions, winning condition, etc etc, anyways, enjoy.
+- Note: The final project is a *DECK SYSTEM*, the actual challenge did not require making a game however it can be scaled up to that point using the current code, all that would be needed is some extra game functions, winning condition, etc etc, anyways, enjoy.\
+## Linkedin Learning Course 3: Templates& the STL
+### A collection of notes and excercise files provided by the instructor 
+- This course did not have a formal challenge or final project like the previous 2 courses, rather this was purely for note-taking and an extremely valuable reference to using C++ templates and its capabilties, as well as algorithms, using functors, lambda syntax, and learning how to apply STL algorithms 
