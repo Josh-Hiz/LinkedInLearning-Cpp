@@ -8,7 +8,7 @@ private:
     T mult = 0;
     multiplyBy();
 public:
-    multiplyBy(T n) : mult(n){}
+    explicit multiplyBy(T n) : mult(9.0){}
     void multi(T n) {mult = n;}
     T multi() const { return mult;}
     T operator() (T n) const {return mult * n;}
