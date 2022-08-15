@@ -1,4 +1,4 @@
-# Install script for directory: /Users/jhiz2704/C++Projects/C++LinkedInProjects/C++FuncProgramming/CH02_01
+# Install script for directory: /Users/jhiz2704/C++Projects/C++LinkedInProjects/C++FuncProgramming/CH02
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/jhiz2704/C++Projects/C++LinkedInProjects/C++FuncProgramming/CH02_01/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/jhiz2704/C++Projects/C++LinkedInProjects/C++FuncProgramming/CH02/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

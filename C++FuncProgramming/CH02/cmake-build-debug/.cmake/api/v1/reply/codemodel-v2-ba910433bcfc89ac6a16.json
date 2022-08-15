@@ -27,7 +27,7 @@
 					[
 						0
 					],
-					"name" : "CH02_01",
+					"name" : "CH02",
 					"targetIndexes" : 
 					[
 						0
@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "CH02_01::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-CH02_01-Debug-c3356208f242cfeb0a23.json",
-					"name" : "CH02_01",
+					"id" : "CH02::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CH02-Debug-4cbdaaceb4e4b0bc23f0.json",
+					"name" : "CH02",
 					"projectIndex" : 0
 				}
 			]
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/jhiz2704/C++Projects/C++LinkedInProjects/C++FuncProgramming/CH02_01/cmake-build-debug",
-		"source" : "/Users/jhiz2704/C++Projects/C++LinkedInProjects/C++FuncProgramming/CH02_01"
+		"build" : "/Users/jhiz2704/C++Projects/C++LinkedInProjects/C++FuncProgramming/CH02/cmake-build-debug",
+		"source" : "/Users/jhiz2704/C++Projects/C++LinkedInProjects/C++FuncProgramming/CH02"
 	},
 	"version" : 
 	{

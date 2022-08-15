@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "CH02_01"
+			"path" : "CH02"
 		}
 	],
 	"backtrace" : 1,
@@ -38,7 +38,7 @@
 					"fragment" : "-g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk"
 				},
 				{
-					"fragment" : "-std=gnu++17"
+					"fragment" : "-std=gnu++14"
 				}
 			],
 			"language" : "CXX",
@@ -48,7 +48,7 @@
 				[
 					1
 				],
-				"standard" : "17"
+				"standard" : "14"
 			},
 			"sourceIndexes" : 
 			[
@@ -56,7 +56,7 @@
 			]
 		}
 	],
-	"id" : "CH02_01::@6890427a1f51a3e7e1df",
+	"id" : "CH02::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -72,8 +72,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "CH02_01",
-	"nameOnDisk" : "CH02_01",
+	"name" : "CH02",
+	"nameOnDisk" : "CH02",
 	"paths" : 
 	{
 		"build" : ".",

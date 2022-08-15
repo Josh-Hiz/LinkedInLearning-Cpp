@@ -1143,8 +1143,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/Users/jhiz2704/C++Projects/C++LinkedInProjects/C++FuncProgramming/CH02_01/cmake-build-debug",
-		"source" : "/Users/jhiz2704/C++Projects/C++LinkedInProjects/C++FuncProgramming/CH02_01"
+		"build" : "/Users/jhiz2704/C++Projects/C++LinkedInProjects/C++FuncProgramming/CH02/cmake-build-debug",
+		"source" : "/Users/jhiz2704/C++Projects/C++LinkedInProjects/C++FuncProgramming/CH02"
 	},
 	"version" : 
 	{

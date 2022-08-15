@@ -2,7 +2,7 @@
 	"entries" : 
 	[
 		{
-			"name" : "CH02_01_BINARY_DIR",
+			"name" : "CH02_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -11,10 +11,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/jhiz2704/C++Projects/C++LinkedInProjects/C++FuncProgramming/CH02_01/cmake-build-debug"
+			"value" : "/Users/jhiz2704/C++Projects/C++LinkedInProjects/C++FuncProgramming/CH02/cmake-build-debug"
 		},
 		{
-			"name" : "CH02_01_IS_TOP_LEVEL",
+			"name" : "CH02_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -26,7 +26,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "CH02_01_SOURCE_DIR",
+			"name" : "CH02_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -35,7 +35,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/jhiz2704/C++Projects/C++LinkedInProjects/C++FuncProgramming/CH02_01"
+			"value" : "/Users/jhiz2704/C++Projects/C++LinkedInProjects/C++FuncProgramming/CH02"
 		},
 		{
 			"name" : "CMAKE_ADDR2LINE",
@@ -91,7 +91,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/jhiz2704/C++Projects/C++LinkedInProjects/C++FuncProgramming/CH02_01/cmake-build-debug"
+			"value" : "/Users/jhiz2704/C++Projects/C++LinkedInProjects/C++FuncProgramming/CH02/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -551,7 +551,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/jhiz2704/C++Projects/C++LinkedInProjects/C++FuncProgramming/CH02_01"
+			"value" : "/Users/jhiz2704/C++Projects/C++LinkedInProjects/C++FuncProgramming/CH02"
 		},
 		{
 			"name" : "CMAKE_INSTALL_NAME_TOOL",
@@ -831,7 +831,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "CH02_01"
+			"value" : "CH02"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
