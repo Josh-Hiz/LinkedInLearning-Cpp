@@ -9,7 +9,7 @@
 					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.22"
+						"string" : "3.23"
 					},
 					"projectIndex" : 0,
 					"source" : ".",
@@ -27,7 +27,7 @@
 					[
 						0
 					],
-					"name" : "FinalChallenge",
+					"name" : "CH02_01",
 					"targetIndexes" : 
 					[
 						0
@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "FinalChallenge::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-FinalChallenge-Debug-2b7939b3bf6c5697ed9b.json",
-					"name" : "FinalChallenge",
+					"id" : "CH02_01::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CH02_01-Debug-c3356208f242cfeb0a23.json",
+					"name" : "CH02_01",
 					"projectIndex" : 0
 				}
 			]
@@ -49,12 +49,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/jhiz2704/C++Projects/C++LinkedInProjects/C++EssentialTraining/FinalChallenge/cmake-build-debug",
-		"source" : "/Users/jhiz2704/C++Projects/C++LinkedInProjects/C++EssentialTraining/FinalChallenge"
+		"build" : "/Users/jhiz2704/C++Projects/C++LinkedInProjects/C++FuncProgramming/CH02_01/cmake-build-debug",
+		"source" : "/Users/jhiz2704/C++Projects/C++LinkedInProjects/C++FuncProgramming/CH02_01"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 3
+		"minor" : 4
 	}
 }

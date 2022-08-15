@@ -27,7 +27,7 @@
 					[
 						0
 					],
-					"name" : "maps",
+					"name" : "FinalChallenge",
 					"targetIndexes" : 
 					[
 						0
@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "maps::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-maps-Debug-bdc63f5210451ec481ac.json",
-					"name" : "maps",
+					"id" : "FinalChallenge::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-FinalChallenge-Debug-b048fe83c4560941cbee.json",
+					"name" : "FinalChallenge",
 					"projectIndex" : 0
 				}
 			]
@@ -49,12 +49,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/jhiz2704/C++Projects/C++LinkedInProjects/C++TemplatesSTL/CH02/maps/cmake-build-debug",
-		"source" : "/Users/jhiz2704/C++Projects/C++LinkedInProjects/C++TemplatesSTL/CH02/maps"
+		"build" : "/Users/jhiz2704/C++Projects/C++LinkedInProjects/C++EssentialTraining/FinalChallenge/cmake-build-debug",
+		"source" : "/Users/jhiz2704/C++Projects/C++LinkedInProjects/C++EssentialTraining/FinalChallenge"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 3
+		"minor" : 4
 	}
 }
